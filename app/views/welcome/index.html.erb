@@ -4,6 +4,12 @@
     </div>
 	<div id="header">
 		<h1>Compare seus produtos</h1>
+		<%= form_tag"index", id: "form1" do %>
+          <%= check_box_tag(:numero2, '2') %>
+          <%= label_tag(:numero2, "2 produtos") %>
+          <%= check_box_tag(:numero4, '4', true) %>
+          <%= label_tag(:numero4, "4 produtos") %>
+        <% end %>
 
 	</div>
   <div id="containers">
@@ -21,7 +27,7 @@
 			</div>
 		  <% end %>
 		<%= form_tag("index", method: "get") do %>
-          <%= label_tag(:produto1, "Produto1:") %>
+          <%= label_tag(:produto1, "Produto 1") %>
           <%= text_field_tag(:produto1) %>
           <%= submit_tag("Buscar") %>
         <% end %>
@@ -41,7 +47,7 @@
 			</div>
 		  <% end %>
 	    <%= form_tag("index", method: "get") do %>
-          <%= label_tag(:produto2, "Produto2:") %>
+          <%= label_tag(:produto2, "Produto 2") %>
           <%= text_field_tag(:produto2) %>
           <%= submit_tag("Buscar") %>
         <% end %>
@@ -61,7 +67,7 @@
 			</div>
 		  <% end %>
 		<%= form_tag("index", method: "get") do %>
-          <%= label_tag(:produto3, "Produto3:") %>
+          <%= label_tag(:produto3, "Produto 3") %>
           <%= text_field_tag(:produto3) %>
           <%= submit_tag("Buscar") %>
         <% end %>
@@ -81,7 +87,7 @@
 			</div>
 		  <% end %>
 		<%= form_tag("index", method: "get") do %>
-          <%= label_tag(:produto4, "Produto4:") %>
+          <%= label_tag(:produto4, "Produto 4") %>
           <%= text_field_tag(:produto4) %>
           <%= submit_tag("Buscar") %>
         <% end %>
