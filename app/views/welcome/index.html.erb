@@ -1,0 +1,91 @@
+<body>
+    <div id="menu" class="header">
+    	<span id="span">+</span>
+    </div>
+	<div id="header">
+		<h1>Compare seus produtos</h1>
+
+	</div>
+  <div id="containers">
+	<div id="container1" class="container">
+		<div class="text">
+		  <% if @produto1 != nil %>
+		  	<div>
+				<p>Nome: <%= @produto1.nome %></p>
+				<p>Modelo: <%= @produto1.modelo %></p>
+				<p>Preço: <%= @produto1.preco %></p>
+				<p>Cores: <%= @produto1.cores %></p>
+				<p>Tamanhos: <%= @produto1.tamanhos %></p>
+				<p>Quantidade: <%= @produto1.quantidade %></p>
+				<p>Descrição: <%= @produto1.descricao %></p>
+			</div>
+		  <% end %>
+		<%= form_tag("index", method: "get") do %>
+          <%= label_tag(:produto1, "Produto1:") %>
+          <%= text_field_tag(:produto1) %>
+          <%= submit_tag("Buscar") %>
+        <% end %>
+		</div>
+	</div>
+	<div id="container2" class="container">
+		<div class="text">
+		  <% if @produto2 != nil %>
+		  	<div>
+				<p>Nome: <%= @produto2.nome %></p>
+				<p>Modelo: <%= @produto2.modelo %></p>
+				<p>Preço: <%= @produto2.preco %></p>
+				<p>Cores: <%= @produto2.cores %></p>
+				<p>Tamanhos: <%= @produto2.tamanhos %></p>
+				<p>Quantidade: <%= @produto2.quantidade %></p>
+				<p>Descrição: <%= @produto2.descricao %></p>
+			</div>
+		  <% end %>
+	    <%= form_tag("index", method: "get") do %>
+          <%= label_tag(:produto2, "Produto2:") %>
+          <%= text_field_tag(:produto2) %>
+          <%= submit_tag("Buscar") %>
+        <% end %>
+		</div>
+	</div>
+	<div id="container3" class="container">
+		<div class="text">
+		  <% if @produto3 != nil %>
+		  	<div>
+				<p>Nome: <%= @produto3.nome %></p>
+				<p>Modelo: <%= @produto3.modelo %></p>
+				<p>Preço: <%= @produto3.preco %></p>
+				<p>Cores: <%= @produto3.cores %></p>
+				<p>Tamanhos: <%= @produto3.tamanhos %></p>
+				<p>Quantidade: <%= @produto3.quantidade %></p>
+				<p>Descrição: <%= @produto3.descricao %></p>
+			</div>
+		  <% end %>
+		<%= form_tag("index", method: "get") do %>
+          <%= label_tag(:produto3, "Produto3:") %>
+          <%= text_field_tag(:produto3) %>
+          <%= submit_tag("Buscar") %>
+        <% end %>
+		</div>
+	</div>
+	<div id="container4" class="container">
+		<div class="text">
+		  <% if @produto4 != nil %>
+		  	<div>
+				<p>Nome: <%= @produto4.nome %></p>
+				<p>Modelo: <%= @produto4.modelo %></p>
+				<p>Preço: <%= @produto4.preco %></p>
+				<p>Cores: <%= @produto4.cores %></p>
+				<p>Tamanhos: <%= @produto4.tamanhos %></p>
+				<p>Quantidade: <%= @produto4.quantidade %></p>
+				<p>Descrição: <%= @produto4.descricao %></p>
+			</div>
+		  <% end %>
+		<%= form_tag("index", method: "get") do %>
+          <%= label_tag(:produto4, "Produto4:") %>
+          <%= text_field_tag(:produto4) %>
+          <%= submit_tag("Buscar") %>
+        <% end %>
+		</div>
+	</div>
+  </div>
+</body>

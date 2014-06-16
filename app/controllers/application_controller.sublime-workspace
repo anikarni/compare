@@ -1,0 +1,758 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"cep"
+			],
+			[
+				"r",
+				"rg"
+			],
+			[
+				"s",
+				"senha"
+			],
+			[
+				"co",
+				"complemento"
+			],
+			[
+				"n",
+				"numero"
+			],
+			[
+				"D",
+				"Dadafiel"
+			],
+			[
+				"E",
+				"Endereço"
+			],
+			[
+				"N",
+				"numero"
+			],
+			[
+				"C",
+				"CEP"
+			],
+			[
+				"B",
+				"Bairro"
+			],
+			[
+				"T",
+				"Telefone"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"add",
+				"addListener"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pd",
+				"padding-right"
+			],
+			[
+				"boto",
+				"bottom"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"price",
+				"price_as_string"
+			],
+			[
+				"pri",
+				"price_as_string"
+			],
+			[
+				"sum",
+				"sum_to_n"
+			],
+			[
+				"su",
+				"sum_to_n"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"set",
+				"setCenter"
+			],
+			[
+				"loc",
+				"locations"
+			],
+			[
+				"onl",
+				"onclick	Attr"
+			],
+			[
+				"row",
+				"row_cnt1"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"test",
+				"test1"
+			],
+			[
+				"get",
+				"getCenter"
+			],
+			[
+				"all",
+				"allowedBounds"
+			],
+			[
+				"i",
+				"iterator"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"has",
+				"has-error2"
+			],
+			[
+				"sear",
+				"searched"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"ta",
+				"table-row"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"b",
+				"border-bottom"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"mysqli",
+				"mysqli_fetch"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"profile-",
+				"profile-div"
+			],
+			[
+				"con",
+				"confirmation"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"posi",
+				"position"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"a",
+				"about"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"top",
+				"text-top"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"o",
+				"onclick	Attr"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"position",
+				"background-position"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"height",
+				"min-height"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"background-",
+				"background-position"
+			],
+			[
+				"border-",
+				"border-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/anikarni/Desktop/conference/palestrantes.php",
+		"/home/anikarni/Desktop/conference/quem-somos.php",
+		"/home/anikarni/Desktop/conference/comissao-de-professores.php",
+		"/home/anikarni/Desktop/conference/contato.php",
+		"/home/anikarni/Desktop/admin.aspx",
+		"/home/anikarni/.gvfs/users on ma-pc",
+		"/home/anikarni/Desktop/confirmar-cadastro-admin.aspx",
+		"/home/anikarni/Desktop/confirmar-cadastro.aspx",
+		"/home/anikarni/.gvfs/users on ma-pc/MA/Desktop/SolucaoWebTenis/ProjetoFrontEnd/cadastrar.aspx",
+		"/home/anikarni/.gvfs/users on ma-pc/MA/Desktop/SolucaoWebTenis/ProjetoFrontEnd/cadastrar-produto.aspx",
+		"/home/anikarni/.gvfs/users on ma-pc/MA/Desktop/SolucaoWebTenis/ProjetoFrontEnd/confirmacao-fornecedor.aspx",
+		"/home/anikarni/.gvfs/users on ma-pc/MA/Desktop/SolucaoWebTenis/ProjetoFrontEnd/busca-categoria.aspx",
+		"/home/anikarni/.gvfs/users on ma-pc/MA/Desktop/SolucaoWebTenis/ProjetoFrontEnd/produto.aspx",
+		"/home/anikarni/.gvfs/users on ma-pc/MA/Desktop/SolucaoWebTenis/ProjetoFrontEnd/administradores.aspx",
+		"/home/anikarni/.gvfs/users on ma-pc/MA/Desktop/SolucaoWebTenis/ProjetoFrontEnd/cadastro-fornecedor.aspx",
+		"/home/anikarni/.gvfs/users on ma-pc/MA/Desktop/SolucaoWebTenis/ProjetoFrontEnd/admin-cadastro.aspx",
+		"/home/anikarni/.gvfs/users on ma-pc/MA/Desktop/SolucaoWebTenis/ProjetoFrontEnd/admin.aspx",
+		"/home/anikarni/Desktop/conference/inscricao.php",
+		"/home/anikarni/.gvfs/users on ma-pc/MA/Desktop/SolucaoWebTenis/ProjetoFrontEnd/admin.aspx.cs",
+		"/home/anikarni/Desktop/conference/index.php",
+		"/home/anikarni/Desktop/anike/index.php",
+		"/home/anikarni/Desktop/anike/css/index.css",
+		"/home/anikarni/Desktop/anike/about-me.php",
+		"/home/anikarni/Desktop/anike/contact.php",
+		"/home/anikarni/Desktop/anike/work.php",
+		"/home/anikarni/Desktop/conference/header.html",
+		"/home/anikarni/Desktop/conference/css/index.css",
+		"/home/anikarni/Desktop/anike/js/show.js",
+		"/home/anikarni/Desktop/anike/js/show-about.js",
+		"/home/anikarni/Desktop/conference/css/responsive-nav.css",
+		"/home/anikarni/Desktop/conference/side-eventos.html",
+		"/home/anikarni/Desktop/conference/comissao-de-alunos.php",
+		"/home/anikarni/Desktop/conference/js/eventos.js",
+		"/home/anikarni/Desktop/conference/eventos.php",
+		"/home/anikarni/Desktop/conference/js/palestrantes.js",
+		"/home/anikarni/Desktop/wesalumni/confirmation.php",
+		"/home/anikarni/Desktop/wesalumni/index.php",
+		"/home/anikarni/Desktop/quiz1test.rb",
+		"/home/anikarni/Desktop/wesalumni/search.php",
+		"/home/anikarni/Desktop/wesalumni/email.php",
+		"/home/anikarni/Desktop/wesalumni/css/index.css",
+		"/home/anikarni/Desktop/saashw/hw1.rb",
+		"/home/anikarni/Desktop/wesalumni/find.php",
+		"/home/anikarni/Desktop/wesalumni/config.php",
+		"/home/anikarni/Desktop/wesalumni/registration.php",
+		"/home/anikarni/Desktop/wesalumni/resend.php",
+		"/home/anikarni/Desktop/wesalumni/form.php",
+		"/home/anikarni/Desktop/wesalumni/js/validate.js",
+		"/home/anikarni/Desktop/wesalumni/js/background.js",
+		"/home/anikarni/Desktop/wesalumni/logout.php",
+		"/home/anikarni/Desktop/wesalumni/profile.php",
+		"/home/anikarni/Desktop/wesalumni/login.php",
+		"/home/anikarni/Desktop/anike/js/fadein.js",
+		"/home/anikarni/Desktop/conference/footer.html",
+		"/home/anikarni/Desktop/conference/patrocinadores.php",
+		"/home/anikarni/Desktop/conference/tecnicos.php",
+		"/home/anikarni/Desktop/conference/js/time.js",
+		"/home/anikarni/Desktop/conference/patrocinadores.html",
+		"/home/anikarni/Desktop/unesp/profiles.html",
+		"/home/anikarni/Desktop/unesp/profiles-pt.html",
+		"/home/anikarni/Desktop/unesp/background.html",
+		"/home/anikarni/Desktop/unesp/team-pt.html",
+		"/home/anikarni/Desktop/unesp/index-en.php",
+		"/home/anikarni/Desktop/unesp/index.php",
+		"/home/anikarni/Desktop/unesp/js/vid.js",
+		"/home/anikarni/Desktop/unesp/team.html",
+		"/home/anikarni/Desktop/unesp/css/index2.css",
+		"/home/anikarni/Desktop/unesp/template.html",
+		"/home/anikarni/Desktop/unesp/publications.html",
+		"/home/anikarni/Desktop/unesp/publications-pt.html",
+		"/home/anikarni/Desktop/unesp/contact.html",
+		"/home/anikarni/Desktop/unesp/home-pt.html",
+		"/home/anikarni/Desktop/unesp/home.html",
+		"/home/anikarni/Desktop/unesp/contact-pt.html",
+		"/home/anikarni/Desktop/unesp/favicon.ico",
+		"/home/anikarni/Desktop/unesp/ongoing.html",
+		"/home/anikarni/Desktop/unesp/js/slidedown.js",
+		"/home/anikarni/Desktop/unesp/ongoing-pt.html",
+		"/home/anikarni/Desktop/unesp/js/team.js",
+		"/home/anikarni/Desktop/wesalumni/send.php",
+		"/home/anikarni/Desktop/wesalumni/reset.php",
+		"/home/anikarni/Desktop/wesalumni/email.html",
+		"/home/anikarni/Desktop/wesalumni/js/spider.js",
+		"/home/anikarni/Desktop/wesalumni/search.html",
+		"/home/anikarni/Desktop/hw0p3.rb",
+		"/home/anikarni/Desktop/hw0p2.rb",
+		"/home/anikarni/Desktop/hw0p1.rb",
+		"/home/anikarni/Desktop/h0p1.rb",
+		"/home/anikarni/Desktop/wesalumni/js/autocomplete.js",
+		"/home/anikarni/Desktop/wesalumni/save.php",
+		"/home/anikarni/Desktop/wesalumni/formulas.php",
+		"/home/anikarni/Desktop/unesp/menu-pt.html",
+		"/home/anikarni/Desktop/unesp/js/menu.js",
+		"/home/anikarni/Desktop/wesalumni/js/wespeeps.js",
+		"/home/anikarni/Desktop/unesp/index.html",
+		"/home/anikarni/Desktop/unesp/menu.html",
+		"/home/anikarni/Desktop/wesalumni/load.php",
+		"/home/anikarni/Desktop/unesp/index.files/html5video/html5ext.js",
+		"/home/anikarni/Desktop/unesp/index-pt.php",
+		"/home/anikarni/Desktop/wesalumni/js/jquery.magnific-popup.js",
+		"/home/anikarni/Desktop/wesalumni/js/jquery.geocomplete.js",
+		"/home/anikarni/Desktop/wesalumni/js/places.js",
+		"/home/anikarni/Desktop/wesalumni/index.html",
+		"/home/anikarni/Desktop/wesalumni/profile-info.php",
+		"/home/anikarni/Desktop/wesalumni/test.php",
+		"/home/anikarni/Desktop/wesalumni/profile-info.html",
+		"/home/anikarni/Desktop/wesalumni/register.html",
+		"/home/anikarni/Desktop/anike/html/header.html",
+		"/home/anikarni/Desktop/unesp/js/responsive-nav.js",
+		"/home/anikarni/Desktop/conference/js/responsive-nav.js",
+		"/home/anikarni/Desktop/wesalumni/form.html",
+		"/home/anikarni/Desktop/unesp/js/readmore.js",
+		"/home/anikarni/Desktop/unesp/js/background.js",
+		"/home/anikarni/Desktop/unesp/js/zoom.js",
+		"/home/anikarni/Desktop/unesp/css/magic-ecwid.js",
+		"/home/anikarni/Desktop/wesalumni/js/register.js",
+		"/home/anikarni/Desktop/wesalumni/js/validate2.js",
+		"/home/anikarni/Desktop/wesalumni/js/jquery.validate.js",
+		"/home/anikarni/Desktop/wesalumni/js/jquery.plugins.js",
+		"/home/anikarni/Desktop/wesalumni/js/jquery.site.js",
+		"/home/anikarni/Downloads/pset7.sql",
+		"/home/anikarni/Desktop/anike/html/formulario-contato.html",
+		"/home/anikarni/Desktop/wesalumni/js/panel.js",
+		"/home/anikarni/Desktop/wesalumni/css/magnific-popup.css",
+		"/media/MURILO/web-tenis-bootstrap/login-cadastrar.html",
+		"/home/anikarni/Downloads/index.html",
+		"/home/anikarni/Desktop/wesalumni/Magnific-Popup-master/src/css/main.scss",
+		"/etc/apt/sources.list"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"about",
+			"id=\"table_content\"",
+			"test",
+			"\"test\"",
+			">\n",
+			"1message",
+			"class=\"test\"",
+			"<span class=\"glyphicon glyphicon-plus\"></span>",
+			"<td>Local</td>",
+			".post('",
+			"alunos",
+			"\"temp\"",
+			"Workshop:",
+			"Palestra:",
+			"thiago",
+			"tiago",
+			"height",
+			" a ",
+			"class=\"description\"",
+			"Abstract",
+			"Authors",
+			"</span></td>",
+			"Rios-Steiner, J.L.,  Murakami, M.T.,  Tulinsky, A.,  Arni, R.K.",
+			"<p>Authors: </p>",
+			"</a></p>",
+			"Contato",
+			"Favorite Research To Date",
+			"Favorite Research to Date",
+			"Voltar a página do nosso time",
+			"Linha de Pesquisa",
+			"Mestrado",
+			"Biofísica Molecular",
+			"Formação",
+			"onclick=\"",
+			"Research:",
+			"onclick=",
+			"Pedro H",
+			"Pedro Henrique Garcia Sobrinho",
+			"Fernanda Paulin Benzatti",
+			"'valid'",
+			"valid",
+			"<td></td>",
+			"href",
+			"<a",
+			"marker",
+			");\n",
+			"markers",
+			"Araújo",
+			"</p>",
+			"<p>",
+			"66868f",
+			"556b9c",
+			"15, 41, 98",
+			"0f2962",
+			"406878",
+			"68A8C2",
+			"83, 134, 155",
+			"214, 214, 214",
+			"465fc8",
+			"4b6bf2",
+			"53869b",
+			"'table'",
+			"Orientator",
+			"Mentor",
+			"Orientator",
+			"Title:",
+			"Bachelors",
+			"Undergraduate Degree",
+			"Masters",
+			"Doctorate",
+			"Post-Doctorate",
+			"Scholarship from",
+			"Research:",
+			".show()",
+			"<div class=\"tile\">",
+			"</div>",
+			"class=\"profile\"",
+			"phone",
+			"Favorite Research To Date",
+			"Molecular Biology",
+			"Researcher Page",
+			"Current Research",
+			"Contact",
+			"Line of Research",
+			"<tr>",
+			"zoom-icon",
+			"Back to our team page",
+			"bachelors",
+			"description",
+			"Read more",
+			"current",
+			"Read more",
+			"<td><span class=\"glyphicon glyphicon-chevron-right\"></span></td>",
+			"onclick",
+			"<tr>",
+			"<tr id=\"",
+			"\"slow\"",
+			"down",
+			"cv lattes",
+			"zoom-in",
+			"100%",
+			"400px",
+			"alunos",
+			"</tr>",
+			"class=\"description\"",
+			"53869b",
+			"large/pub2",
+			"id=\"zoom\"",
+			"#B5B5B5",
+			"cfcfcf",
+			"7996E8",
+			"c5c5c5",
+			"141414",
+			"474c4a",
+			".alunos",
+			">, ",
+			"red, green, blue",
+			"202020",
+			"606060",
+			".js",
+			"#cssmenu",
+			"min-height",
+			"min-width",
+			"525557",
+			"52fe52",
+			">\n",
+			"</td></tr>",
+			"chevron-down"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "application_controller.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
