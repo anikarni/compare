@@ -1,5 +1,6 @@
 class WelcomeController < ApplicationController
   def index
+  	# se existem parametros, criar variavel para ser usada para não mostrar o cabeçario ao abrir a página
   	@params = false
   	p = 0
   	params.each do |param|
@@ -11,14 +12,14 @@ class WelcomeController < ApplicationController
   		end
   	end
 
+  	# mostrar dois ou quatro produtos, de acordo com a escolha do formulário
   	session[:numero] ||= 4 
   	session[:numero] = params[:numero] if params[:numero]
 	@numero = session[:numero].to_i
 	@two = ""
-	@hide = ""
 	@two = "two_products" if @numero == 2
-	@hide = "true" if @numero == 2
 
+	# criar variáveis para mostrar os produtos buscados
 	@produtos = Produto.all
   	@busca = Array.new
   	@produto = Array.new

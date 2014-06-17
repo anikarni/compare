@@ -4,18 +4,20 @@
     </div>
 	<div id="header">
 		<h1>Compare seus produtos</h1><br>
+		<!-- Formulário para dois ou quatro produtos -->
 		<div id="forms">
-		<%= form_tag "index", method: "get", id: "form1" do %>
-          <%= check_box_tag(:numero, 2, @numero == 2, :onchange => ("$('#form1').submit()")) %>
-          <%= label_tag(:numero, "2 produtos") %>
-        <% end %>
-        <%= form_tag "index", method: "get", id: "form2" do %>
-          <%= check_box_tag(:numero, 4, @numero == 4, :onchange => ("$('#form2').submit()")) %>
-          <%= label_tag(:numero, "4 produtos") %>
-        <% end %>
+			<%= form_tag "index", method: "get", id: "form1" do %>
+	          <%= check_box_tag(:numero, 2, @numero == 2, id: "numero2", :onchange => ("$('#form1').submit()")) %>
+	          <%= label_tag("numero2", "2 produtos") %>
+	        <% end %>
+	        <%= form_tag "index", method: "get", id: "form2" do %>
+	          <%= check_box_tag(:numero, 4, @numero == 4, id: "numero4", :onchange => ("$('#form2').submit()")) %>
+	          <%= label_tag("numero4", "4 produtos") %>
+	        <% end %>
         </div>
 	</div>
 
+  <!-- Caixa para cada produto -->
   <div id="containers">
   	<% for i in 0...@numero %>
 		<div id="container<%= i %>" class="container <%= @two %>">
