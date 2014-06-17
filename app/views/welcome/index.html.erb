@@ -99,5 +99,26 @@
 	</div>
   </div>
 
+        <script type="text/javascript">
+        	$(function() {
+			  var availableTags = [
+			    <% @produtos.each do |produto| %>
+			      "<%= produto.nome %>",
+			    <% end %>
+			  ];
+			  $( "#produto1" ).autocomplete({
+			    source: availableTags
+			  });
+			  $( "#produto2" ).autocomplete({
+			    source: availableTags
+			  });
+			  $( "#produto3" ).autocomplete({
+			    source: availableTags
+			  });
+			  $( "#produto4" ).autocomplete({
+			    source: availableTags
+			  });
+			});
+        </script>
 
 </body>

@@ -48,10 +48,18 @@ body {
 	background-color: #fff;
 	padding: 10px;
 	opacity: .9;
+	cursor: pointer;
 }
 
 #form1, #form2 {
 	display: inline;
+}
+
+#form1 input,
+#form1 label,
+#form2 input,
+#form2 label {
+	cursor: pointer;
 }
 
 #containers {
