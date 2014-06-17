@@ -15,16 +15,15 @@
 //= require turbolinks
 //= require_tree .
 
-    $.data(this, 'timer', setTimeout($.proxy(function() {
-      $('#header').slideUp('slow');
-    }, this), 3000));
-
 
 $(document).ready(function () {
     var menu = $('#header')
     var timeout = 0;
     var hovering = false;
-    menu.hide();
+    
+    $.data(this, 'timer', setTimeout($.proxy(function() {
+      menu.slideUp('slow');
+    }, this), 4000));
 
     $('#span')
         .on("mouseenter", function () {

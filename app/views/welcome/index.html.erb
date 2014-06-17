@@ -6,119 +6,58 @@
 		<h1>Compare seus produtos</h1><br>
 		<div id="forms">
 		<%= form_tag "index", method: "get", id: "form1" do %>
-          <%= check_box_tag(:numero2, '2', @numero == 2, :onchange => ("$('#form1').submit()")) %>
-          <%= label_tag(:numero2, "2 produtos") %>
+          <%= check_box_tag(:numero, 2, @numero == 2, :onchange => ("$('#form1').submit()")) %>
+          <%= label_tag(:numero, "2 produtos") %>
         <% end %>
         <%= form_tag "index", method: "get", id: "form2" do %>
-          <%= check_box_tag(:numero4, '4', @numero == 4, :onchange => ("$('#form2').submit()")) %>
-          <%= label_tag(:numero4, "4 produtos") %>
+          <%= check_box_tag(:numero, 4, @numero == 4, :onchange => ("$('#form2').submit()")) %>
+          <%= label_tag(:numero, "4 produtos") %>
         <% end %>
         </div>
+	</div>
 
-	</div>
   <div id="containers">
-	<div id="container1" class="container <%= @two %>">
-		<div class="text">
-		  <% if @produto1 != nil %>
-		  	<div>
-				<p>Nome: <%= @produto1.nome %></p>
-				<p>Modelo: <%= @produto1.modelo %></p>
-				<p>Preço: <%= @produto1.preco %></p>
-				<p>Cores: <%= @produto1.cores %></p>
-				<p>Tamanhos: <%= @produto1.tamanhos %></p>
-				<p>Quantidade: <%= @produto1.quantidade %></p>
-				<p>Descrição: <%= @produto1.descricao %></p>
+  	<% for i in 0...@numero %>
+		<div id="container<%= i %>" class="container <%= @two %>">
+			<div class="text">
+			  <% if @produto[i] != nil %>
+			  	<div>
+					<p>Nome: <%= @produto[i].nome %></p>
+					<p>Modelo: <%= @produto[i].modelo %></p>
+					<p>Preço: <%= @produto[i].preco %></p>
+					<p>Cores: <%= @produto[i].cores %></p>
+					<p>Tamanhos: <%= @produto[i].tamanhos %></p>
+					<p>Quantidade: <%= @produto[i].quantidade %></p>
+					<p>Descrição: <%= @produto[i].descricao %></p>
+				</div>
+			  <% end %>
+			<%= form_tag("index", method: "get") do %>
+	          <%= label_tag(:produto[i], "Produto #{i + 1}") %>
+	          <%= text_field_tag(:produto[i]) %>
+	          <%= submit_tag("Buscar") %>
+	        <% end %>
+			  <% if @produto[i] == nil && @busca[i] != nil %>
+			  	<p class="erro"><%= @busca[i] %> não foi encontrado</p>
+			  <% end %>
 			</div>
-		  <% end %>
-		<%= form_tag("index", method: "get") do %>
-          <%= label_tag(:produto1, "Produto 1") %>
-          <%= text_field_tag(:produto1) %>
-          <%= submit_tag("Buscar") %>
-        <% end %>
 		</div>
-	</div>
-	<div id="container2" class="container <%= @two %>">
-		<div class="text">
-		  <% if @produto2 != nil %>
-		  	<div>
-				<p>Nome: <%= @produto2.nome %></p>
-				<p>Modelo: <%= @produto2.modelo %></p>
-				<p>Preço: <%= @produto2.preco %></p>
-				<p>Cores: <%= @produto2.cores %></p>
-				<p>Tamanhos: <%= @produto2.tamanhos %></p>
-				<p>Quantidade: <%= @produto2.quantidade %></p>
-				<p>Descrição: <%= @produto2.descricao %></p>
-			</div>
-		  <% end %>
-	    <%= form_tag("index", method: "get") do %>
-          <%= label_tag(:produto2, "Produto 2") %>
-          <%= text_field_tag(:produto2) %>
-          <%= submit_tag("Buscar") %>
-        <% end %>
-		</div>
-	</div>
-	<div id="container3" class="container <%= @hide %>">
-		<div class="text">
-		  <% if @produto3 != nil %>
-		  	<div>
-				<p>Nome: <%= @produto3.nome %></p>
-				<p>Modelo: <%= @produto3.modelo %></p>
-				<p>Preço: <%= @produto3.preco %></p>
-				<p>Cores: <%= @produto3.cores %></p>
-				<p>Tamanhos: <%= @produto3.tamanhos %></p>
-				<p>Quantidade: <%= @produto3.quantidade %></p>
-				<p>Descrição: <%= @produto3.descricao %></p>
-			</div>
-		  <% end %>
-		<%= form_tag("index", method: "get") do %>
-          <%= label_tag(:produto3, "Produto 3") %>
-          <%= text_field_tag(:produto3) %>
-          <%= submit_tag("Buscar") %>
-        <% end %>
-		</div>
-	</div>
-	<div id="container4" class="container <%= @hide %>">
-		<div class="text">
-		  <% if @produto4 != nil %>
-		  	<div>
-				<p>Nome: <%= @produto4.nome %></p>
-				<p>Modelo: <%= @produto4.modelo %></p>
-				<p>Preço: <%= @produto4.preco %></p>
-				<p>Cores: <%= @produto4.cores %></p>
-				<p>Tamanhos: <%= @produto4.tamanhos %></p>
-				<p>Quantidade: <%= @produto4.quantidade %></p>
-				<p>Descrição: <%= @produto4.descricao %></p>
-			</div>
-		  <% end %>
-		<%= form_tag("index", method: "get") do %>
-          <%= label_tag(:produto4, "Produto 4") %>
-          <%= text_field_tag(:produto4) %>
-          <%= submit_tag("Buscar") %>
-        <% end %>
-		</div>
-	</div>
+	<% end %>
   </div>
 
-        <script type="text/javascript">
-        	$(function() {
-			  var availableTags = [
-			    <% @produtos.each do |produto| %>
-			      "<%= produto.nome %>",
-			    <% end %>
-			  ];
-			  $( "#produto1" ).autocomplete({
-			    source: availableTags
-			  });
-			  $( "#produto2" ).autocomplete({
-			    source: availableTags
-			  });
-			  $( "#produto3" ).autocomplete({
-			    source: availableTags
-			  });
-			  $( "#produto4" ).autocomplete({
-			    source: availableTags
-			  });
-			});
-        </script>
+<script type="text/javascript">
+	$(function() {
+	  <% if @params == true %>
+	    $('#header').hide();
+	  <% end %>
+	  var availableTags = [
+	    <% @produtos.each do |produto| %>
+	      "<%= produto.nome %>",
+	    <% end %>
+	  ];
+	  $( ".text form input" ).autocomplete({
+	    source: availableTags
+	  });
+	});
+</script>
 
 </body>

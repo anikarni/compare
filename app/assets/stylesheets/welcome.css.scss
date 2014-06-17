@@ -94,19 +94,19 @@ body {
 	display: none !important;
 }
 
-#container1 {
+#container0 {
 	background-color: #CBDDE8;
 }
 
-#container2 {
+#container1 {
 	background-color: #FFCDC0;
 }
 
-#container3 {
+#container2 {
 	background-color: #FFFE9E;
 }
 
-#container4 {
+#container3 {
 	background-color: #DCFFB8;
 }
 
@@ -124,4 +124,8 @@ body {
 
 .text div {
 	margin-bottom: -100px;
+}
+
+.erro {
+	margin-top: 150px;
 }
