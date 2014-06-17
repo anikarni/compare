@@ -43,11 +43,15 @@ body {
 	opacity: .9;
 }
 
-#form1 {
+#forms {
 	display: inline-block;
 	background-color: #fff;
 	padding: 10px;
 	opacity: .9;
+}
+
+#form1, #form2 {
+	display: inline;
 }
 
 #containers {
@@ -72,6 +76,14 @@ body {
 
 .container:hover {
 	opacity: 1;
+}
+
+.two_products {
+	height: 100% !important;
+}
+
+.true {
+	display: none !important;
 }
 
 #container1 {

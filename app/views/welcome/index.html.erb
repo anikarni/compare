@@ -4,16 +4,20 @@
     </div>
 	<div id="header">
 		<h1>Compare seus produtos</h1><br>
-		<%= form_tag"index", id: "form1" do %>
-          <%= check_box_tag(:numero2, '2') %>
+		<div id="forms">
+		<%= form_tag "index", method: "get", id: "form1" do %>
+          <%= check_box_tag(:numero2, '2', @numero == 2, :onchange => ("$('#form1').submit()")) %>
           <%= label_tag(:numero2, "2 produtos") %>
-          <%= check_box_tag(:numero4, '4', true) %>
+        <% end %>
+        <%= form_tag "index", method: "get", id: "form2" do %>
+          <%= check_box_tag(:numero4, '4', @numero == 4, :onchange => ("$('#form2').submit()")) %>
           <%= label_tag(:numero4, "4 produtos") %>
         <% end %>
+        </div>
 
 	</div>
   <div id="containers">
-	<div id="container1" class="container">
+	<div id="container1" class="container <%= @two %>">
 		<div class="text">
 		  <% if @produto1 != nil %>
 		  	<div>
@@ -33,7 +37,7 @@
         <% end %>
 		</div>
 	</div>
-	<div id="container2" class="container">
+	<div id="container2" class="container <%= @two %>">
 		<div class="text">
 		  <% if @produto2 != nil %>
 		  	<div>
@@ -53,7 +57,7 @@
         <% end %>
 		</div>
 	</div>
-	<div id="container3" class="container">
+	<div id="container3" class="container <%= @hide %>">
 		<div class="text">
 		  <% if @produto3 != nil %>
 		  	<div>
@@ -73,7 +77,7 @@
         <% end %>
 		</div>
 	</div>
-	<div id="container4" class="container">
+	<div id="container4" class="container <%= @hide %>">
 		<div class="text">
 		  <% if @produto4 != nil %>
 		  	<div>
@@ -94,4 +98,6 @@
 		</div>
 	</div>
   </div>
+
+
 </body>
