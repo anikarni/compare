@@ -46,7 +46,6 @@ gem 'spring',        group: :development
 
 group :development, :test do
   gem 'rspec-rails'
-  gem 'factory_girl_rails'
 end
 
 group :test do
@@ -54,3 +53,5 @@ group :test do
   gem 'database_cleaner'
   gem 'factory_girl_rails'
 end
+
+gem 'paperclip', github: 'thoughtbot/paperclip'

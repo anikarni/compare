@@ -8,6 +8,7 @@ class CreateProdutos < ActiveRecord::Migration
       t.string :cores
       t.string :quantidade
       t.text :descricao
+      t.attachment :foto
 
       t.timestamps
     end

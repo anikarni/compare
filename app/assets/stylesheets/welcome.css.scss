@@ -119,9 +119,28 @@ body {
 }
 
 .text div {
-	margin-bottom: -100px;
+	margin-bottom: -110px;
+}
+
+.box {
+	background-color: #fff;
+	opacity: .9;
+	display: inline-block;
+	width: 350px;
+	padding: 20px;
+	line-height: 20px;
+	margin-top: 250px;
 }
 
 .erro {
 	margin-top: 50%;
+}
+
+.image {
+	width: 90%;
+	min-height: 500px;
+	opacity: .9;
+	margin-left: auto;
+	margin-right: auto;
+	background-size: 100%;
 }

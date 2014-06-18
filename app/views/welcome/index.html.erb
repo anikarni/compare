@@ -23,14 +23,16 @@
 		<div id="container<%= i %>" class="container <%= @two %>">
 			<div class="text">
 			  <% if @produto[i] != nil %>
-			  	<div>
-					<p>Nome: <%= @produto[i].nome %></p>
-					<p>Modelo: <%= @produto[i].modelo %></p>
-					<p>Preço: <%= @produto[i].preco %></p>
-					<p>Cores: <%= @produto[i].cores %></p>
-					<p>Tamanhos: <%= @produto[i].tamanhos %></p>
-					<p>Quantidade: <%= @produto[i].quantidade %></p>
-					<p>Descrição: <%= @produto[i].descricao %></p>
+			  	<div class="image" style="background-image: url(<%= @produto[i].foto %>)">
+			  		<div class="box">
+						Nome: <%= @produto[i].nome %><br>
+						Modelo: <%= @produto[i].modelo %><br>
+						Preço: <%= @produto[i].preco %><br>
+						Cores: <%= @produto[i].cores %><br>
+						Tamanhos: <%= @produto[i].tamanhos %><br>
+						Quantidade: <%= @produto[i].quantidade %><br>
+						Descrição: <%= @produto[i].descricao %>
+					</div>
 				</div>
 			  <% end %>
 			<%= form_tag("index", method: "get") do %>
