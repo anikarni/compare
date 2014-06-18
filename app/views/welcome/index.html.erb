@@ -39,7 +39,7 @@
 	          <%= submit_tag "Buscar", id: "buscar#{i}" %>
 	        <% end %>
 			  <% if @produto[i] == nil && @busca[i] != nil %>
-			  	<p class="erro"><%= @busca[i] %> não foi encontrado</p>
+			  	<p class="erro">"<%= @busca[i] %>" não foi encontrado</p>
 			  <% end %>
 			</div>
 		</div>

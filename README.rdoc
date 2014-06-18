@@ -1,28 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+------
 
-Things you may want to cover:
+Este aplicativo está disponível no seguinte link (heroku):
 
-* Ruby version
+  http://shrouded-temple-2956.herokuapp.com/welcome/index
 
-* System dependencies
+Para utilizá-lo, simplesmente busque produtos da base de dados e compare seus produtos lado-a-lado.
 
-* Configuration
+------
 
-* Database creation
+Para executar os testes, cd no diretorio do projeto e digite o seguinte no terminal:
 
-* Database initialization
+  rake cucumber
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+------
