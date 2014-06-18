@@ -35,8 +35,8 @@
 			  <% end %>
 			<%= form_tag("index", method: "get") do %>
 	          <%= label_tag(:produto[i], "Produto #{i + 1}") %>
-	          <%= text_field_tag(:produto[i]) %>
-	          <%= submit_tag("Buscar") %>
+	          <%= text_field_tag(:produto[i], "", id: "produto[#{i}]") %>
+	          <%= submit_tag "Buscar", id: "buscar#{i}" %>
 	        <% end %>
 			  <% if @produto[i] == nil && @busca[i] != nil %>
 			  	<p class="erro"><%= @busca[i] %> não foi encontrado</p>
