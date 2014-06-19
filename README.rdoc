@@ -2,16 +2,23 @@
 
 ------
 
+Esse aplicativo seria usado para comparação de produtos ou serviços de uma certa empresa. Para utilizá-lo, simplesmente busque produtos da base de dados e compare seus produtos lado-a-lado.
+
 Este aplicativo está disponível no seguinte link (heroku):
 
   http://shrouded-temple-2956.herokuapp.com/welcome/index
 
-Para utilizá-lo, simplesmente busque produtos da base de dados e compare seus produtos lado-a-lado.
 
 ------
 
 Para executar os testes, cd no diretorio do projeto e digite o seguinte no terminal:
 
   rake cucumber
+
+Para popular as bases de dados com os exemplos oferecidos no documento seeds.rb,  digite:
+
+  rake db:migrate
+  rake db:seed (popula a base de dados para desenvolvimento)
+  rake db:seed RAILS_ENV=test (popula a base de dados para testes)
 
 ------

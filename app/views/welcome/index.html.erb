@@ -23,6 +23,7 @@
 		<div id="container<%= i %>" class="container <%= @two %>">
 			<div class="text">
 			  <% if @produto[i] != nil %>
+			    <div class="engloba">
 			  	<div class="image" style="background-image: url(<%= @produto[i].foto %>)">
 			  		<div class="box">
 						Nome: <%= @produto[i].nome %><br>
@@ -33,6 +34,7 @@
 						Quantidade: <%= @produto[i].quantidade %><br>
 						Descrição: <%= @produto[i].descricao %>
 					</div>
+				</div>
 				</div>
 			  <% end %>
 			<%= form_tag("index", method: "get") do %>

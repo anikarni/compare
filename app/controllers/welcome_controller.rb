@@ -4,7 +4,7 @@ class WelcomeController < ApplicationController
   	@params = false
   	p = 0
   	params.each do |param|
-  		if param.present?
+  		if params.present?
   			p += 1
   		end
   		if p > 2
